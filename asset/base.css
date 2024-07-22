@@ -1,0 +1,89 @@
+:root{
+    --primary-color:#ee4d2d;
+     --white-color:#fff;
+     --black-color:#000;
+     --text-color:#333;
+     --border-color:#dbdbdb;
+     --header-heigh:120px;
+     --navbar-heigh:34px;
+     --star-gold-color:#ffce3e;
+    --header-with-search-heigh: calc(var(--header-heigh) - var(--navbar-heigh));
+    --hover-color:#1b95e0;
+    --chan:1,3,5,7;
+    --le:2,4,6,8;
+    }
+    body{
+        background-color: #f1f1f1;
+    }
+    *{
+        box-sizing: inherit;
+    }
+    html{
+        font-size: 62.5%;
+        line-height: 1.6rem;
+        font-family: roboto,Helvetica,Arial,sans-serif;
+        box-sizing: border-box;
+    }
+    .grid{
+    width:1200px ;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    .grid__full-width{
+    width: 100%;
+    }
+    .grid__row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .grid__column-2{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 16.6667%;
+    }
+    .grid__column-2-4{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 20%;
+    }
+    .grid__column-10{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 83.3333%;
+    }
+    .c-red{
+        color: red;
+    }
+    .disable{
+        display: none !important;
+    }
+    .menu__right{
+        display: flex; 
+        justify-content: flex-start;
+    }
+    .bc-blue{
+        background-color: #0072bb;
+    }
+    .bc-green{
+       background-color:  #04a59d;
+    }
+    .bc-red{
+       background-color:  #9f224e;
+    }
+    .bc-pink{
+       background-color:  #d71450;
+    }
+    .bc-blue-black{
+        background-color: #08416d;
+    }
+    .bc-green-blur{
+       background-color:  #2d96b5;
+    }
+    .bc-green-la{
+       background-color:  #04a59d;
+    }
+    .fw-b{
+        font-weight: 700;
+    }

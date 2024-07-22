@@ -1,0 +1,213 @@
+main{
+    padding: 14px 18px;
+    background-color: white;
+}
+.main__up{
+    display: flex;
+
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 14px;
+}
+.main__up h3{
+    font-size: 1.4rem;
+    color: #666;
+
+}
+.main__up-link{
+    color: #666;
+    text-decoration: none;
+}
+.main__up-link:hover{
+    transition: all ease-in-out .4s;
+        color: #bc0136;
+}
+.main__up h3 i{
+
+}
+.main__up-link--current{
+    text-decoration: none;
+    color: #254892;
+
+}
+.main__section--head{
+    margin-top: 15px;
+}
+.main--heading{
+font-size: 3rem;
+color: #254892;
+line-height: 5rem;
+}
+.main__section--head-big{
+
+}
+.section--head-big-content--wrap{
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+.section--head-big-content--wrap img{
+    width: 46%;
+    display: block;
+    height: auto;
+}
+.section--head-big-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section--head-big-link{
+    font-size: 2.4rem;
+text-decoration: none;
+color: #333;
+font-weight: 700;
+line-height: 3.4rem;
+transition: all linear .2s;
+}
+.section--head-big-link:hover{
+text-decoration: none;
+color: #1b95e0;
+}
+.section--head-big-link+p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #666;
+}
+.first__section--under-link{
+    margin-top: 0;
+}
+.first__section-right--under{
+
+}
+.first__section--under{
+
+}
+.first__section--under a:first-child{
+    
+}
+.first__section--under-link{
+
+}
+.main__aboutfc{
+
+}
+.main__aboutfc-items--wrap{
+display: flex;
+justify-content: space-between;
+}
+.main__aboutfc-items:first-child{
+    margin-right: 30px;
+}
+.main__aboutfc-items{
+    width: 100%;
+    border: 1px solid  #ddd;
+    border-bottom-left-radius: 30px ;
+
+}
+.main__aboutfc-content{
+    font-size: 1.6rem;
+
+}
+.aboutfc-content__date{
+    color: #254892;
+    font-weight: 700;
+ text-align: center;
+ padding-top: 16px;
+ padding-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+
+}
+.aboutfc-content__date p{
+    
+}
+.main__aboutfc-match{
+    padding: 16px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+
+}
+.main__aboutfc-name{
+display: block;
+width: 220px;
+text-decoration: none;
+color: #333;
+transition: all linear .2s;
+}
+.main__aboutfc-name:hover{
+text-decoration: none;
+color: #1b95e0;
+}
+.main__aboutfc-time{
+
+    color: #254892;
+}
+.main__aboutfc-title{
+
+}
+.main__aboutfc-title h3{
+    
+}
+
+.main__aboutfc-title span{
+    
+}
+.main__aboutfc-details{
+
+}
+.main__aboutfc-details span:first-child{
+
+}
+.main__aboutfc-details span:last-child{
+
+}
+.name-fc{
+
+}
+.name-fc img{
+    
+}
+.name-fc span{
+    
+}
+.main__aboutfc-items--under{
+margin-top: 28px;
+}
+.aboutfc-items--under-items{
+
+}
+.aboutfc-items--under-item{
+    display: flex;
+border-bottom: 1px solid #ddd;
+padding: 20px 0;
+}
+.aboutfc-items--under-item img{
+    width: 20%;
+    height: auto;
+}
+.under-item__content{
+ margin-left: 20px;
+margin-top: 6px;
+}
+.under-item__content h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.under-item__content h3 a:hover{
+text-decoration: none;
+transition: all ease-in-out .3s;
+color: #1b95e0;
+}
+
+.under-item__content h3 a{
+    color: #333;
+    text-decoration: none;
+    
+}
+.under-item__content p{
+    margin-top: 14px;
+    font-size: 1.4rem;
+    color: #666;
+}
+.news__heading-wrap{
+margin-bottom: 0;
+}
